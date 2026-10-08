@@ -10,6 +10,9 @@ def add(a: float, b: float) -> float:
     return a + b
 
 
+def greet(name: str) -> str:
+    return f"Hello, {name}!"
+
 def subtract(a: float, b: float) -> float:
     return a - b
 
